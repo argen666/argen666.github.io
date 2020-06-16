@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="alice">Thanks for calling CashQ.</Say>
+    <Pause length="1"/>
+    <Say voice="alice">If you have any questions please dial 954 456 4600. Thank you</Say>
+</Response>
