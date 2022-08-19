@@ -5,4 +5,4 @@
 - 🔬 Specialised in backend technologies based in the Java ecosystem
 - 💬 This is my personal blog
 
-![Main](./assets/images/blog-v20.png "Main")
+![Main](./assets/images/blog.png "Main")
