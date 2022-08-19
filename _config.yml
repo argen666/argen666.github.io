@@ -1,0 +1,79 @@
+# Site
+name: "Igor Borodulin"
+title: "Igor Borodulin - Software Engineer"
+description: "Java/Kotlin & Spring Backend (8+ years experience)"
+name_logo: "assets/images/name_logo.svg"
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
+baseurl: ""
+google_analytics: "UA-864123904-1666"
+disqus: "https-argen666-github-io"
+mailchimp: "https://gmail.us10.list-manage.com/subscribe/post?u=eaf9e3e2ac052d264c5db808e&amp;id=5b7f106e21&amp;f_id=008b2be2f0"
+include: ["_pages"]
+permalink: /:title/
+
+# Social
+social:
+  email: argen666@gmail.com
+  linkedin: https://www.linkedin.com/in/iborodulin/
+  github: https://github.com/argen666
+  twitter: https://twitter.com/argen6666
+
+# Authors
+authors:
+  argen666:
+    name: Igor Borodulin
+    display_name: Igor Borodulin
+    avatar: "assets/images/avatar.png"
+    email: argen666@gmail.com
+    web: https://www.linkedin.com/in/iborodulin/
+    description: "Software Developer and Architect. Specialised in backend technologies based in the Java ecosystem."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+#adsense-data-ad-client: "ca-pub-3412143450191416"
+#adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
+
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
