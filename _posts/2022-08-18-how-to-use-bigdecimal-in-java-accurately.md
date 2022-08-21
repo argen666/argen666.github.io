@@ -96,8 +96,8 @@ The result of the equals method comparison of these BigDecimals is false.
 
 Accordingly, there are two following methods to create a BigDecimal that can accurately represent 0.61:
 ```java
-BigDecimal recommend1 = new BigDecimal("0.1");
-BigDecimal recommend2 = BigDecimal.valueOf(0.1);
+BigDecimal recommend1 = new BigDecimal("0.61");
+BigDecimal recommend2 = BigDecimal.valueOf(0.61);
 ```
 The method `BigDecimal.valueOf(double)` uses two-step process and implemented by calling the `Double.toString(double)` method.
 The first step is to convert the Double to String. The second step is to convert String to BigDecimal:
